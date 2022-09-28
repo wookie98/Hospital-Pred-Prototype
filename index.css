@@ -1,0 +1,195 @@
+/** ESTILO DE MAQUETACIÓN 1 **/
+.header1{
+	margin: 0;
+	position: absolute;
+	background: #b3d9ff;
+	top: 0px;
+	left: 0px;
+	height: 50%;
+	right: 0px;
+}
+.footer1{
+	margin: 0;
+	position: absolute;
+	background: #cecece;
+	bottom: 0px;
+	left: 0px;
+	height: 50%;
+	right: 0px;
+	
+}
+.nav1{
+	display:none;
+}
+.main1{
+	margin: 0;
+	position: absolute;
+	border: 1px solid #000000;
+	border-radius: 5px;
+	height: 400px;
+	width: 300px;
+	top: 50%;
+	left: 50%;
+	margin-top: -200px;  /* 1/2 de height */
+	margin-left: -150px; /* 1/2 de width  */
+	background:#ffffff;
+}
+
+/** ESTILO DE MAQUETACIÓN 2 **/
+.header2{
+	margin: 0;
+	position: absolute;
+	background: #b3d9ff;
+	background-color: #b3d9ff;
+	top: 0px;
+	left: 0px;
+	height: 100px;
+	right: 0px;
+	
+}
+.footer2{
+	margin: 0;
+	position: absolute;
+	background: #737373;
+	bottom: 0px;
+	left: 0px;
+	height: 40px;
+	right: 0px;
+	color: white;
+}
+.nav2{
+	margin: 0;
+	display:block;
+	position: absolute;
+	background: #d9d9d9;
+	top: 100px;   /* 'height' de header */
+	bottom: 40px; /* 'height' de footer */
+	left: 0px;
+	margin: 0;
+	width: 200px;
+	
+}
+.nav2 a:hover{
+	padding:3px;
+	margin:2px;
+	color:#6699ff;
+	background: #c8c8c8;
+	text-decoration: underline;
+	cursor: pointer;
+}
+.nav2 a{
+	padding:3px;
+	text-decoration: underline;
+	margin:2px;
+	color:#6699ff;
+	
+}
+.main2{
+	margin: 0;
+	position: absolute;
+	border: 0px;
+	border-radius: 0px;
+	top: 100px;   /* 'height' de header */
+	left: 200px;  /* 'width' de nav     */
+	bottom: 40px; /* 'height' de footer */
+	right: 0px;	
+}
+.main2 img{
+	height:97%;
+	margin-top:0.5%;
+	 margin-left: 18%;
+  margin-right: auto;
+}
+footer {
+	text-align:center;
+}
+/** HTML y BODY a máxima extensión **/
+html, body{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	min-height: 100%;
+}
+
+.main2 Button {
+	background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+	background-color:#33bdef;
+	border-radius:17px;
+	border:1px solid #057fd0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+}
+.main2 Button:hover:enabled {
+	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+	background-color:#019ad2;
+}
+.main2 Button:active {
+	position:relative;
+	top:1px;
+}
+
+.main1 Button {
+	background:linear-gradient(to bottom, #777777 5%, #888888 100%);
+	background-color:#cccccc;
+	border-radius:17px;
+	border:1px solid;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+}
+.main1 Button:hover {
+	background:linear-gradient(to bottom, #888888 5%, #777777 100%);
+	background-color:;
+}
+.main1 Button:active {
+	position:relative;
+	top:1px;
+}
+
+button:disabled,
+button[disabled]{
+  background:linear-gradient(to bottom, #555555 5%, #444444 100%);
+	background-color:#cccccc;
+	border-radius:17px;
+	border:1px solid;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+}
+
+
+
+/**
+propiedades por defecto en todos los
+elementos de la web
+border-box hace que el ancho pide el padding pero no el margen
+**/	
+*{
+	/*	background: #ffffff;*/
+	color: #000000;
+	font-family: sans-serif;
+	font-size: 16px;
+	box-sizing: border-box;
+	overflow: auto;
+	margin: 4px;
+}
+
+
+
